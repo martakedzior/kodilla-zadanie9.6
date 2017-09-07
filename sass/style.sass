@@ -1,0 +1,42 @@
+$fonts: "OpenSans", sans-serif
+$header-color: #2ABB9B
+$body-color: #E9D460
+$form-control-color: #FDE3A7
+
+*
+  box-sizing: border-box
+
+body
+  margin: 0 auto
+  font-family: $fonts
+  background: #E9D460
+
+.navbar
+  background: $header-color
+  border-color: $header-color
+  .navbar-header>a
+    color: black
+  .navbar-nav>li>a
+    color: black
+  .navbar-nav>.active>a
+    background-color: $body-color
+    font-weight: 600
+    color: black
+
+.jumbotron 
+  margin-top: 50px
+  height: 300px
+  background-image: url(https://images.pexels.com/photos/130621/pexels-photo-130621.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb)
+  background-repeat: no-repeat
+  background-size: cover
+  button
+    margin-top: 50px
+
+.contact-form
+  margin-bottom: 50px
+  .form-control
+    background: $form-control-color
+
+.footer
+  background-color: $header-color
+  text-align: center
